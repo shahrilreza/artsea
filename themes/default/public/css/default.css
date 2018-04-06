@@ -55,7 +55,7 @@ footer > a { color: black; }
 .breadcrumb a:hover { text-decoration: underline; }
 
 .post { background-color: white; border-radius: 3px; box-shadow: 0 5px 10px rgba(0,0,0,0.05); margin-bottom: 20px; border: 1px solid #E8E8E8; }
-.postbody { font-family: "Libre Baskerville"; padding: 20px; }
+.postbody { font-family: LibreBaskerville; padding: 20px; }
 .post .image img { border-radius: 4px 4px 0 0; }
 .post .title { font-size: 16px; display: block; font-weight: bold; text-overflow: ellipsis; white-space: nowrap; overflow-y: hidden; }
 .post p { font-size: 12px; line-height: 14px; height: 42px; overflow: hidden; }
