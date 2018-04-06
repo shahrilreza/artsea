@@ -22,10 +22,10 @@ h3 { font-family: $font; margin: 0 0 10px 0; padding: 0; font-weight: 700; font-
 
 header { border-bottom: 1px solid #E0E0E0; height: 80px; }
 header nav { margin: 5px 0 0 30px; padding: 18px 0 18px 30px; float: right; }
-header nav a { font-size: 14px; color: black; text-transform: uppercase; font-weight: bold; margin-left: 10px; padding: 5px 7px; display: inline-block; position: relative; font-family: $font; border-radius: 3px; }
+header nav a { font-size: 14px; color: #505050; text-transform: uppercase; font-weight: bold; margin-left: 10px; padding: 5px 7px; display: inline-block; position: relative; font-family: $font; border-radius: 3px; }
 header nav a:first-child { margin-left: 0; }
-header nav a:hover { text-decoration: none; color: #505050; }
-header nav .selected { color: white !important; background-color: #78AE4E; }
+header nav a:hover { text-decoration: none; color: black; }
+header nav .selected { color: white !important; background-color: #505050; }
 header nav .fa { margin-right: 8px; }
 
 header .linkbutton { border-radius: 100px; color: #D0D0D0; font-size: 20px; padding: 25px 0; width: 100%; display: block; border: 2px solid gray; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.05); transition: all 0.3s; font-weight: bold; }
@@ -55,7 +55,7 @@ footer > a { color: black; }
 .breadcrumb a:hover { text-decoration: underline; }
 
 .post { background-color: white; border-radius: 3px; box-shadow: 0 5px 10px rgba(0,0,0,0.05); margin-bottom: 20px; border: 1px solid #E8E8E8; }
-.postbody { padding: 20px; }
+.postbody { font-family: "Libre Baskerville"; padding: 20px; }
 .post .image img { border-radius: 4px 4px 0 0; }
 .post .title { font-size: 16px; display: block; font-weight: bold; text-overflow: ellipsis; white-space: nowrap; overflow-y: hidden; }
 .post p { font-size: 12px; line-height: 14px; height: 42px; overflow: hidden; }
